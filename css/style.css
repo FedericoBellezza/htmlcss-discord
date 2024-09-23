@@ -13,6 +13,19 @@
 	max-width: 100%;
 }
 
+button {
+	padding: 20px 30px;
+}
+
+img.wave {
+	width: 100%;
+	transform: rotate(180deg);
+}
+
+.section-box:nth-child(even) {
+	background-color: lightgray;
+}
+
 /* DEBUG */
 /* .debug {
 	background-color: #ddfcad;
@@ -117,7 +130,6 @@ p {
 
 .hero button {
 	font-size: 1.5rem;
-	padding: 10px 20px;
 	border-radius: 50px;
 	border: none;
 	cursor: pointer;
@@ -168,7 +180,6 @@ p {
 }
 
 .only-content button {
-	padding: 10px 20px;
 	border-radius: 50px;
 	border: none;
 	cursor: pointer;
@@ -271,7 +282,6 @@ hr {
 }
 
 .btn-footer button {
-	padding: 10px 20px;
 	border-radius: 50px;
 	border: none;
 	cursor: pointer;
