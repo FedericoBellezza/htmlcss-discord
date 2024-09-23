@@ -4,7 +4,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
-	border: 1px dashed black;
 }
 
 /* # UTILS */
@@ -160,7 +159,7 @@ p {
 .only-content {
 	text-align: center;
 	width: 100%;
-	margin-block: 50px;
+	margin-block: 150px;
 }
 
 .section-box h2 {
@@ -176,60 +175,109 @@ p {
 	margin: 20px;
 	background-color: rgb(114 137 218);
 	color: white;
+	font-size: 1.3rem;
 }
 
 .only-content h3 {
 	background-image: url(../img/stars.svg);
 	background-size: cover;
 	display: inline-block;
-	padding-inline: 34px;
+	padding-inline: 40px;
 	background-position: center;
-	padding-block: 7px;
+	padding-block: 10px;
+	font-size: 2rem;
+	margin-bottom: 20px;
+	margin-top: 50px;
 }
 
 /* FOOTER */
 footer {
-	background-color: rgb(36, 36, 36);
-	padding-block: 50px;
+	background-color: #23272a;
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
 .main-content-footer {
 	display: flex;
 }
 
 .sm-content-footer {
-	flex-grow: 1;
-	background-color: rosybrown;
-	border: 1px dashed black;
+	flex-grow: 30%;
 }
 .lg-content-footer {
-	flex-grow: 2;
+	width: 70%;
 	display: flex;
 }
 
 .split-content-footer {
 	height: 500px;
 	flex-grow: 1;
-	border: 1px dashed white;
-	background-color: lightseagreen;
 }
 
 .secondary-content-footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 100px;
 	margin-block: 50px;
-	border: 1px dashed black;
-	background-color: lightcoral;
 }
 
 .logo-footer,
 .btn-footer {
-	height: 50px;
-	width: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px dashed black;
-	background-color: lightgreen;
+}
+
+.icons-container img {
+	height: 20px;
+}
+
+.icons-container {
+	display: flex;
+	gap: 20px;
+}
+
+.sm-content-footer h2 {
+	color: #7289da;
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.language-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.language-container img {
+	height: 20px;
+	margin-right: 10px;
+}
+.language-container span {
+	color: white;
+}
+
+.split-content-footer ul {
+	list-style: none;
+	color: white;
+	font-weight: 500;
+}
+.split-content-footer ul li {
+	margin-bottom: 20px;
+}
+.split-content-footer ul li:first-child {
+	color: #7289da;
+	font-weight: 700;
+}
+
+hr {
+	border: 1px solid #7289da;
+}
+
+.btn-footer button {
+	padding: 10px 20px;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	background-color: rgb(114 137 218);
+	color: white;
 }
