@@ -200,9 +200,6 @@ footer {
 	display: flex;
 }
 
-.sm-content-footer {
-	flex-grow: 30%;
-}
 .lg-content-footer {
 	width: 70%;
 	display: flex;
